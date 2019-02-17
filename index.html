@@ -16,11 +16,30 @@
 		}
 
 		#about-title {
-			color: white
+			color: white;
+		}
+
+		#about-text {
+			color: white;
+			margin: 0px;
+			font-weight: bold
 		}
 
 		#contact-title {
-			color: white
+			color: black;
+			padding: 0.5%;
+		}
+
+		#network-icons {
+			width: 4%;
+			height: 4%;
+			display: inline-block;
+			padding: 1%;
+		}
+
+		#network-icons-div {	
+			margin:auto;
+    		text-align:center;
 		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
@@ -33,20 +52,25 @@
 		<h3 align="center">i'm a passionate developer, currently working in the fintech industry</h3>
 	</div>
 	<div class="section" id="section1">
-		<h1 align="center" id="about-title">about me</h1>
+		<h1 align="center" id="about-title">about me 👨🏼‍💻</h1>
+		<p align="center" id="about-text">lover of all things tech with a particular interest in the start-up scene</p>
 	</div>
 	<div class="section" id="section2">
 		<h1 align="center">experience</h1>
 	</div>
 	<div class="section" id="section3">
 		<h1 align="center" id="contact-title">contact</h1>
+		<div id="network-icons-div">
+			<img src="images/logo-linkedin.svg" id="network-icons"> 
+			<img src="images/github-sign.svg" id="network-icons">
+		</div>
 	</div>
 </div>
 
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', '#2196F3', 'white', '#2196F3']
+		sectionsColor: ['white', '#2196F3', '#2196F3', 'white']
 	});
 </script>
 </body>
