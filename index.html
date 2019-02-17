@@ -9,6 +9,19 @@
 		* {
       		font-family: sans-serif;
     	}
+
+		h1,h2,h3 {
+			margin:0px;
+			padding:0px;
+		}
+
+		#about-title {
+			color: white
+		}
+
+		#contact-title {
+			color: white
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
 </head>
@@ -16,23 +29,24 @@
 
 <div id="fullpage">
 	<div class="section active" id="section0">
-		<h1 align="center">Brandon Hardy</h1>
+		<h1 align="center">hey everyone 👋, i'm Brandon</h1>
+		<h3 align="center">i'm a passionate developer, currently working in the fintech industry</h3>
 	</div>
 	<div class="section" id="section1">
-		<h1 align="center">About me</h1>
+		<h1 align="center" id="about-title">about me</h1>
 	</div>
 	<div class="section" id="section2">
-		<h1 align="center">Experience</h1>
+		<h1 align="center">experience</h1>
 	</div>
 	<div class="section" id="section3">
-		<h1 align="center">Contact</h1>
+		<h1 align="center" id="contact-title">contact</h1>
 	</div>
 </div>
 
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', 'white', 'white', 'white', '#ccddff']
+		sectionsColor: ['white', '#2196F3', 'white', '#2196F3']
 	});
 </script>
 </body>
