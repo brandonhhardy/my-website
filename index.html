@@ -8,30 +8,66 @@
 	<style>
 		* {
       		font-family: sans-serif;
-    	}
+		}
+		
+		a:link#text-links {
+			background-color: whitesmoke;
+			color: black;
+			text-decoration: none;
+		}
+
+		a:visited#text-links {
+			background-color: whitesmoke;
+			color: black;
+			text-decoration: none;
+		}
+
+		a:link#text-links-white {
+			background-color: #2196F3;
+			color: white;
+			text-decoration: none;
+		}
+
+		a:visited#text-links-white {
+			background-color: #2196F3;
+			color: white;
+			text-decoration: none;
+		}
 
 		h1,h2,h3 {
 			margin:0px;
 			padding:0px;
 		}
 
-		#about-title {
+		#non-white-bg-title {
 			color: white;
+			text-align:center;
+			padding-bottom: 1%;
 		}
 
 		#about-text {
 			color: white;
+			text-align: center;
 			margin: 0px;
-			font-weight: bold
+			font-weight: bold;
+			padding-left: 10%;
+			padding-right: 10%;
 		}
 
-		#experience-title {
+		#about-text-second {
 			color: white;
+			text-align: center;
+			margin: 0px;
+			font-weight: bold;
+			padding-left: 10%;
+			padding-right: 10%;
+			padding-top: 2%;
 		}
 
-		#contact-title {
+		#white-bg-title {
 			color: black;
-			padding: 0.5%;
+			text-align:center;
+			padding-bottom: 1%;
 		}
 
 		#network-icons {
@@ -45,25 +81,72 @@
 			margin:auto;
     		text-align:center;
 		}
+
+		#experience-div {
+			margin: 0px;
+			text-align: center;
+		}
+
+		#experience-sub-text {
+			color: white;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		#accomplishments-div {
+			margin: 0px;
+			text-align: center;
+		}
+
+		#personal-projects-text {
+			color: black;
+			text-align: center;
+		}
+
+		.fp-controlArrow.fp-prev{
+			color: black;
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
 </head>
 <body>
 
 <div id="fullpage">
-	<div class="section active" id="section0">
-		<h1 align="center">hey everyone 👋, i'm Brandon</h1>
-		<h3 align="center">i'm a passionate developer, currently working in the fintech industry</h3>
+	<div class="section" id="initial-section">
+		<h1 align="center">Hey 👋, I'm Brandon</h1>
+		<h3 align="center">I'm a passionate developer, currently working in the Fintech industry</h3>
 	</div>
-	<div class="section" id="section1">
-		<h1 align="center" id="about-title">about me 👨🏼‍💻</h1>
-		<p align="center" id="about-text">lover of all things tech with a particular interest in the start-up scene</p>
+	<div class="section active" id="about-me">
+		<div class="slide active">
+			<h1 id="non-white-bg-title">About me 👨🏼‍💻</h1>
+			<h3 id="about-text"><a href="https://www.surrey.ac.uk/undergraduate/computer-science" target="_blank" id="text-links">BSc Computer Science</a> graduate from The University of Surrey 🎓, lover of all things tech. I have recently explored IoT (Internet of Things) and Cloud ☁️ based technologies much more closely and have immersed myself into personal projects based on my curiousness of this area of technology.</h3>
+			<h3 id="about-text-second">I have a particular interest in the start-up scene. I am fascinated by the entrepreneurial journey, having created a couple ventures already, I am keen to explore further ideas and projects.</h3>
+		</div>
+		<div class="slide">
+			<div id="experience-div">
+				<h1 id="non-white-bg-title">Experience 🚀</h1>
+				<h3 id="experience-sub-text">Developer at <a href="https://www.paymentsense.co.uk" target="_blank" id="text-links">Paymentsense</a> (Current), London</h3>
+				<h3 id="experience-sub-text">Programming Analyst at <a href="https://www.avcosystems.com" target="_blank" id="text-links">Avco Systems</a> (Industrial Placement), Slough, UK</h3>
+			</div>
+		</div>
+		<div class="slide">
+			<div id="accomplishments-div">
+				<h1 id="non-white-bg-title">Accomplishments 🎯</h1>
+				<h3 id="experience-sub-text"><a href="https://www.surrey.ac.uk/undergraduate/computer-science" target="_blank" id="text-links">BSc Computer Science</a>, University of Surrey</h3>
+				<h3 id="experience-sub-text"><a href="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/associate.html" target="_blank" id="text-links">CCNA</a>, Cisco Certified Network Associate</h3>
+				<h3 id="experience-sub-text">Microsoft, <a href="https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing" target="_blank" id="text-links">Online Marketing Fundamentals Certification</a></h3>
+			</div>
+		</div>
 	</div>
-	<div class="section" id="section2">
-		<h1 align="center" id="experience-title">experience</h1>
+	<div class="section" id="personal-projects">
+		<h1 id="white-bg-title">Personal Projects</h1>
+		<h3 id="personal-projects-text">You can view some of my personal projects on my <a href="https://github.com/brandonhhardy" target="_blank" id="text-links-white">Github</a> (including this websites code!) but carrying on scrolling if you want to see more 😎</h3>
 	</div>
-	<div class="section" id="section3">
-		<h1 align="center" id="contact-title">contact</h1>
+	<div class="section" id="section4">
+		<h1 id="non-white-bg-title">under construction</h1>
+	</div>
+	<div class="section" id="contact">
+		<h1 id="white-bg-title">Contact</h1>
 		<div id="network-icons-div">
 			<a href="https://www.linkedin.com/in/brandonhhardy" target="_blank"> 
 				<img src="images/logo-linkedin.svg" id="network-icons"> 
@@ -78,7 +161,7 @@
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', '#2196F3', '#2196F3', 'white']
+		sectionsColor: ['white', '#2196F3', 'white', '#2196F3', 'white']
 	});
 </script>
 </body>
