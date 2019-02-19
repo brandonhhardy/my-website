@@ -18,7 +18,7 @@
 
 	<style>
 		* {
-      		font-family: sans-serif;
+      		font-family: Play;
 		}
 		
 		a:link#text-links {
@@ -41,6 +41,18 @@
 
 		a:visited#text-links-white {
 			background-color: #2196F3;
+			color: white;
+			text-decoration: none;
+		}
+
+		a:link#text-links-green {
+			background-color: #547a42;
+			color: white;
+			text-decoration: none;
+		}
+
+		a:visited#text-links-green {
+			background-color: #547a42;
 			color: white;
 			text-decoration: none;
 		}
@@ -109,12 +121,62 @@
 			text-align: center;
 		}
 
-		#personal-projects-text {
+		.personal-projects-text {
 			color: black;
 			text-align: center;
 		}
+
+		#personal-projects-sub-text {
+			color: black;
+			text-align: center;
+		}
+
+		#rhs-logo-div {
+			margin: 0px;
+			text-align: center;
+			padding-bottom: 1%;
+		}
+
+		#rhs-logo {
+			width: 40%;
+			height: 40%;
+		}
+
+		#rhs-description-text {
+			font-size: 14px;
+			font-weight: lighter;
+			text-align: center;
+			padding-right: 30%;
+			padding-left: 30%;
+		}
+
+		#rhs-wisley-app-div {
+			margin:auto;
+			text-align:center;
+			padding-left: 2%;
+		}
+
+		.rhs-app-images {
+			width: 10.5%;
+			height: 10.5%;
+			display: inline-block;
+			padding: 0%;
+		}
+
+		#rhs-dry-zone {
+			width: 17%;
+			height: 18%;
+		}
+
+		.tech-stack-images {
+			width: 20%;
+			height: 20%;
+			display: inline-block;
+			padding: 0%;
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
 </head>
 <body>
 
@@ -127,7 +189,7 @@
 		<div class="slide active">
 			<h1 id="non-white-bg-title">About me 👨🏼‍💻</h1>
 			<h3 id="about-text"><a href="https://www.surrey.ac.uk/undergraduate/computer-science" target="_blank" id="text-links">BSc Computer Science</a> graduate from The University of Surrey 🎓, a lover of all things tech. I have recently explored IoT (Internet of Things) and Cloud ☁️ based technologies much more closely and have immersed myself into personal projects based on my curiousness of this area of technology.</h3>
-			<h3 id="about-text-second">I have a particular interest in the start-up scene. I am fascinated by the entrepreneurial journey, having created a couple ventures already, I am keen to explore further ideas and projects.</h3>
+			<h3 id="about-text-second">I have a particular interest in the start-up scene. I am fascinated by the entrepreneurial journey, having created a couple of ventures already, I am keen to explore further ideas and projects.</h3>
 		</div>
 		<div class="slide">
 			<div id="experience-div">
@@ -147,11 +209,27 @@
 	</div>
 	<div class="section" id="personal-projects">
 		<h1 id="white-bg-title">Personal Projects</h1>
-		<h3 id="personal-projects-text">You can view some of my personal projects on my <a href="https://github.com/brandonhhardy" target="_blank" id="text-links-white">Github</a> (including this websites code!)</h3>
-		<h3 id="personal-projects-text">or keep scrolling to see some of my projects 😎</h3>
+		<h3 class="personal-projects-text">You can view some of my personal projects on my <a href="https://github.com/brandonhhardy" target="_blank" id="text-links-white">Github</a> (including this websites code!)</h3>
+		<h3 class="personal-projects-text">or keep scrolling to see some of my projects 😎</h3>
 	</div>
-	<div class="section" id="section4">
-		<h1 id="non-white-bg-title">under construction</h1>
+	<div class="section" id="wisley1">
+		<div id="rhs-logo-div">
+			<a href="https://www.rhs.org.uk/" target="_blank">
+				<img src="images/rhs-logo-full.svg" id="rhs-logo"> 
+			</a>
+		</div>
+		<h3 id="personal-projects-sub-text">iOS Application using Bluetooth Sensor Beacons</a></h3>
+		<!-- <div id="rhs-wisley-app-div">
+			<p id="rhs-description-text">
+				This project aimed to create an application that utilised mobile and sensor technologies to enhance visitor experience. The project aimed to tackle the problem of obtrusive interaction with current mobile applications and the unreliability of GPS and cellular signal. In order to create a solution for such issues, the project utilised low-energy Bluetooth beacons from the start-up Estimote to explore and create an application that not only reduced obtrusion but set a basis for exciting further development of visitor applications in the future.					
+			</p>
+			<div>
+				<img src="images/dry-zone.png" class="rhs-app-images" id="rhs-dry-zone">
+				<img src="images/dry-zone-app.png" class="rhs-app-images">
+				<img src="images/dry-zone-notification.png" class="rhs-app-images">
+			</div>
+		</div> -->
+		<h4 id="personal-projects-sub-text">View more on my <a href="https://github.com/brandonhhardy/RHS-Wisley" target="_blank" id="text-links-green">Github</a></h4>
 	</div>
 	<div class="section" id="contact">
 		<h1 id="white-bg-title">Contact</h1>
@@ -169,7 +247,7 @@
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', '#2196F3', 'white', '#2196F3', 'white'],
+		sectionsColor: ['white', '#2196F3', 'white', 'white', 'white','#2196F3'],
 	});
 </script>
 </body>
