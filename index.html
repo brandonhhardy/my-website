@@ -102,24 +102,20 @@
 			color: black;
 			text-align: center;
 		}
-
-		.fp-controlArrow.fp-prev{
-			color: black;
-		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
 </head>
 <body>
 
 <div id="fullpage">
-	<div class="section" id="initial-section">
+	<div class="section active" id="initial-section">
 		<h1 align="center">Hey 👋, I'm Brandon</h1>
-		<h3 align="center">I'm a passionate developer, currently working in the Fintech industry</h3>
+		<h3 align="center">I'm a passionate developer, currently working in the fintech industry</h3>
 	</div>
-	<div class="section active" id="about-me">
+	<div class="section" id="about-me">
 		<div class="slide active">
 			<h1 id="non-white-bg-title">About me 👨🏼‍💻</h1>
-			<h3 id="about-text"><a href="https://www.surrey.ac.uk/undergraduate/computer-science" target="_blank" id="text-links">BSc Computer Science</a> graduate from The University of Surrey 🎓, lover of all things tech. I have recently explored IoT (Internet of Things) and Cloud ☁️ based technologies much more closely and have immersed myself into personal projects based on my curiousness of this area of technology.</h3>
+			<h3 id="about-text"><a href="https://www.surrey.ac.uk/undergraduate/computer-science" target="_blank" id="text-links">BSc Computer Science</a> graduate from The University of Surrey 🎓, a lover of all things tech. I have recently explored IoT (Internet of Things) and Cloud ☁️ based technologies much more closely and have immersed myself into personal projects based on my curiousness of this area of technology.</h3>
 			<h3 id="about-text-second">I have a particular interest in the start-up scene. I am fascinated by the entrepreneurial journey, having created a couple ventures already, I am keen to explore further ideas and projects.</h3>
 		</div>
 		<div class="slide">
@@ -140,7 +136,8 @@
 	</div>
 	<div class="section" id="personal-projects">
 		<h1 id="white-bg-title">Personal Projects</h1>
-		<h3 id="personal-projects-text">You can view some of my personal projects on my <a href="https://github.com/brandonhhardy" target="_blank" id="text-links-white">Github</a> (including this websites code!) but carrying on scrolling if you want to see more 😎</h3>
+		<h3 id="personal-projects-text">You can view some of my personal projects on my <a href="https://github.com/brandonhhardy" target="_blank" id="text-links-white">Github</a> (including this websites code!)</h3>
+		<h3 id="personal-projects-text">or keep scrolling to see some of my projects 😎</h3>
 	</div>
 	<div class="section" id="section4">
 		<h1 id="non-white-bg-title">under construction</h1>
@@ -161,7 +158,7 @@
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', '#2196F3', 'white', '#2196F3', 'white']
+		sectionsColor: ['white', '#2196F3', 'white', '#2196F3', 'white'],
 	});
 </script>
 </body>
