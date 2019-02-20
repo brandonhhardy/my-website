@@ -174,9 +174,21 @@
 			display: inline-block;
 			padding: 0%;
 		}
+
+		#heartbeat {
+			font-size: 16px;
+		}
+
+		#nursepad-logo-div {
+			margin: 0px;
+			text-align: center;
+			padding-bottom: 1%;
+		}
 	</style>
 	<link rel="stylesheet" type="text/css" href="./fullpage.js/dist/fullpage.css" />
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Play" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -218,19 +230,20 @@
 				<img src="images/rhs-logo-full.svg" id="rhs-logo"> 
 			</a>
 		</div>
-		<h3 id="personal-projects-sub-text">iOS Application using Bluetooth Sensor Beacons</a></h3>
-		<!-- <div id="rhs-wisley-app-div">
-			<p id="rhs-description-text">
-				This project aimed to create an application that utilised mobile and sensor technologies to enhance visitor experience. The project aimed to tackle the problem of obtrusive interaction with current mobile applications and the unreliability of GPS and cellular signal. In order to create a solution for such issues, the project utilised low-energy Bluetooth beacons from the start-up Estimote to explore and create an application that not only reduced obtrusion but set a basis for exciting further development of visitor applications in the future.					
-			</p>
-			<div>
-				<img src="images/dry-zone.png" class="rhs-app-images" id="rhs-dry-zone">
-				<img src="images/dry-zone-app.png" class="rhs-app-images">
-				<img src="images/dry-zone-notification.png" class="rhs-app-images">
-			</div>
-		</div> -->
-		<h4 id="personal-projects-sub-text">View more on my <a href="https://github.com/brandonhhardy/RHS-Wisley" target="_blank" id="text-links-green">Github</a></h4>
+		<h3 id="personal-projects-sub-text">iOS Application using Bluetooth Sensor Beacons</h3>
+		<h4 id="personal-projects-sub-text">View more on my <a href="https://github.com/brandonhhardy/rhswisleyapp" target="_blank" id="text-links-green">Github</a></h4>
 	</div>
+
+	<div class="section active" id="nursepad">
+		<div id="nursepad-logo-div">
+				<i id="hearbeat" class="fa fa-heartbeat fa-3x"></i>
+				<h1>NursePad</h1>
+		</div>
+		<h3 id="personal-projects-sub-text">Native Mobile Application utlising QR Scanning to provide secure information about patients for carers</a></h3>
+		<h3 id="personal-projects-sub-text"></a></h3>
+		<h4 id="personal-projects-sub-text">View more on my <a href="https://github.com/brandonhhardy/nursepad" target="_blank"id="text-links-white">Github</a></h4>
+	</div>
+	
 	<div class="section" id="contact">
 		<h1 id="white-bg-title">Contact</h1>
 		<div id="network-icons-div">
@@ -247,7 +260,7 @@
 <script type="text/javascript" src="./fullpage.js/dist/fullpage.js"></script>
 <script type="text/javascript">
 	var myFullpage = new fullpage('#fullpage', {
-		sectionsColor: ['white', '#2196F3', 'white', 'white', 'white','#2196F3'],
+		sectionsColor: ['white', '#2196F3', 'white', 'white', 'white','white'],
 	});
 </script>
 </body>
