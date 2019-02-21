@@ -1,0 +1,192 @@
+* {
+    font-family: Play;
+}
+
+a:link#text-links {
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+}
+
+a:visited#text-links {
+  background-color: whitesmoke;
+  color: black;
+  text-decoration: none;
+}
+
+a:link#text-links-white {
+  background-color: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited#text-links-white {
+  background-color: #2196F3;
+  color: white;
+  text-decoration: none;
+}
+
+a:link#text-links-green {
+  background-color: #547a42;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited#text-links-green {
+  background-color: #547a42;
+  color: white;
+  text-decoration: none;
+}
+
+h1,h2,h3 {
+  margin:0px;
+  padding:0px;
+}
+
+#non-white-bg-title {
+  color: white;
+  text-align:center;
+  padding-bottom: 1%;
+}
+
+#about-text {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#about-text-second {
+  color: white;
+  text-align: center;
+  margin: 0px;
+  font-weight: bold;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+#white-bg-title {
+  color: black;
+  text-align:center;
+  padding-bottom: 1%;
+}
+
+#network-icons {
+  width: 4%;
+  height: 4%;
+  display: inline-block;
+  padding: 1%;
+}
+
+#network-icons-div {	
+  margin:auto;
+  text-align:center;
+}
+
+#experience-div {
+  margin: 0px;
+  text-align: center;
+}
+
+#experience-sub-text {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+#accomplishments-div {
+  margin: 0px;
+  text-align: center;
+}
+
+.personal-projects-text {
+  color: black;
+  text-align: center;
+}
+
+.publications-text {
+    color: black;
+    text-align: center;
+  }
+
+#personal-projects-sub-text {
+  color: black;
+  text-align: center;
+}
+
+#rhs-logo-div {
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+#rhs-logo {
+  width: 40%;
+  height: 40%;
+}
+
+#rhs-description-text {
+  font-size: 14px;
+  font-weight: lighter;
+  text-align: center;
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+#rhs-wisley-app-div {
+  margin:auto;
+  text-align:center;
+  padding-left: 2%;
+}
+
+.rhs-app-images {
+  width: 10.5%;
+  height: 10.5%;
+  display: inline-block;
+  padding: 0%;
+}
+
+#rhs-dry-zone {
+  width: 17%;
+  height: 18%;
+}
+
+.tech-stack-images {
+  width: 20%;
+  height: 20%;
+  display: inline-block;
+  padding: 0%;
+}
+
+#heartbeat {
+  font-size: 16px;
+}
+
+#nursepad-logo-div {
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.publications-div {
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+#computer-vision-system {
+    padding-top: 2%;
+    color: white;
+}
+
+#iot-data-exfiltration {
+    padding-top: 1%;
+    color: white;
+}
+
+.publications-text {
+    color: white;
+}
